@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Shopping Cart Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div id="shopping-cart-container" class=" bg-purple-600 text-white mt-8 p-4 flex flex-col lg:flex-row justify-around items-center">
+      <div id="products-container" class="rounded border-2 border-white-300">
+        <div class="card mt-2 p-4">
+          <h2 class="text-lg">ABBA CD</h2>
+          <p class="quantity">4</p>
+          <p class="price">£9.99</p>
+          <button class="remove-button bg-red-500 hover:bg-red-600 px-4">Remove</button>
+        </div>
+        <div class="card mt-2 p-4">
+          <h2 class="text-lg">Rolling Stones CD</h2>
+          <p class="quantity">4</p>
+          <p class="price">£9.99</p>
+          <button class="remove-button bg-red-500 hover:bg-red-600 px-4">Remove</button>
+          </div>
+          <div class="card mt-2 p-4">
+          <h2 class="text-lg">Sounds of the 1980s CD</h2>
+          <p class="quantity">4</p>
+          <p class="price">£9.99</p>
+          <button class="remove-button bg-red-500 hover:bg-red-600 px-4">Remove</button>
+        </div>
+        
+      </div>
+      <div id="order-summary-container" class="rounded border-2 border-yellow-300 mt-5 p-8">
+          <h2 class="text-lg p-1">Order Summary</h2>
+          <span id="total" class="text-lg font-bold p-2">Total:</span>
+          <span id="total-amount">£29.97</span>
+          <p class="p-4"></p>
+          <a href="#" class="text-center bg-blue-100 hover:bg-blue-300 px-4 text-black mx-auto p-1">Checkout</a>
+        </div>
+    </div>
+  </body>
+</html>
